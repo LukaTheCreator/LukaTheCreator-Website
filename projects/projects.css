@@ -1,0 +1,10 @@
+body { 
+    background-color: #303030; 
+    font-family:Candara;
+}
+h1 {
+    color:#00ff00;
+    font-size:64pt;
+    font-weight: bold;
+    text-align: center;
+}
