@@ -4,10 +4,64 @@ body {
     padding: 20px;
     background-color: #f4f4f4;
 }
+
 h1 {
     color: #333;
 }
-a {
-    color: #007bff;
+
+.instagram-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px;
     text-decoration: none;
+    color: #E1306C;
+    font-weight: bold;
+}
+
+.instagram-link img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.folders {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.folder {
+    font-size: 18px;
+    text-decoration: none;
+    color: #007bff;
+    display: block;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+    margin: auto;
+}
+
+.back {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
 }
