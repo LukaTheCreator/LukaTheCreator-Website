@@ -9,19 +9,23 @@ h1 {
     color: #333;
 }
 
+a {
+    text-decoration: none;
+}
+
 .instagram-link {
     display: inline-flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 30px; /* Increased font size */
     margin: 20px;
     text-decoration: none;
-    color: #E1306C;
+    color: #E1306C; /* Instagram red color */
     font-weight: bold;
 }
 
-.instagram-link img {
-    width: 20px;
-    margin-left: 5px;
+.instagram-link i {
+    margin-left: 10px; /* Adds a little space between the text and the icon */
+    font-size: 35px; /* Increase the icon size */
 }
 
 .folders {
@@ -42,14 +46,6 @@ h1 {
     border: 1px solid #ddd;
     width: 200px;
     margin: auto;
-}
-
-.back {
-    display: inline-block;
-    margin: 20px 0;
-    font-size: 16px;
-    text-decoration: none;
-    color: #007bff;
 }
 
 ul {
